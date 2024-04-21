@@ -95,7 +95,7 @@ void test(){
 
 	sort(all(arr));
 
-	int maxi = 0 , count = 1;
+	int maxi = 1 , count = 1;
 	for(int i=1; i<n; i++){
 		if(arr[i] - arr[i-1] <= k){
 			count++;
